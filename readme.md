@@ -7,6 +7,12 @@ Open `src/main.rs` and update the size of the string you want to generate.
 let size = 10 * 1024 / 8;
 ```
 
+Optional: Update the prefix, which is `offer` now.
+
+```rust
+let encoded = encode_puzzle_hash(&hex, "offer")?;
+```
+
 ### Run
 
 ```bash
