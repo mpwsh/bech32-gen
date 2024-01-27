@@ -13,7 +13,7 @@ pub enum Error {
 }
 
 fn main() -> Result<()> {
-    let size = 500 * 1024 / 8;
+    let size = 10 * 1024 / 8;
     let mut rng = rand::thread_rng();
 
     let bytes: Vec<u8> = (0..size).map(|_| rng.gen()).collect();
